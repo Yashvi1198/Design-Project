@@ -1,0 +1,51 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff;
+    background-image: url(space-galaxy-background-generative-ai-free-photo.jpg);
+}
+
+header {
+    background-color: #861236;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.Navbar ul{
+    list-style-type: none;
+    background-color: hsl(277, 70%, 6%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .Navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .Navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+  }
+  .Navbar li{
+    float: right;
+  }

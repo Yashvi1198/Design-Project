@@ -1,0 +1,71 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: plum;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Intro Section */
+.aboutintro {
+    text-align: center;
+    margin: 20px;
+}
+
+.aboutintro h2 {
+    color: plum;
+}
+
+/* Table Section */
+.abouttable {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: plum;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.Navbar ul{
+    list-style-type: none;
+    background-color: hsl(277, 70%, 6%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .Navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .Navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+  }
+  .Navbar li{
+    float: right;
+  }

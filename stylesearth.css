@@ -1,0 +1,61 @@
+.Navbar ul{
+    list-style-type: none;
+    background-color: hsl(277, 70%, 6%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .Navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .Navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+  }
+  .Navbar li{
+    float: right;
+  }
+  
+  header {
+    background-color: #180f2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+       background-image: url(space-galaxy-background-generative-ai-free-photo.jpg); 
+}
+
+
+.earthy {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers image and text box*/
+    padding: 40px;
+    background-color: #34495e; 
+    color: white;
+}
+
+ img {
+    display: block;
+    margin: 0 auto 20px auto; 
+    width: 300px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+ P {
+    background-color: #332c50;
+    padding: 20px;
+    border-radius: 10px; 
+    max-width: 600px; 
+    text-align: center; 
+    margin: 0 auto;
+    color: white;
+}
